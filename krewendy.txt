@@ -1,3 +1,4 @@
 1. SELECT imie, nazwisko FROM osoby WHERE imie LIKE "A%";
 2. SELECT zadanie, data FROM zadania WHERE zadanie LIKE '%mebli%' ORDER BY data ASC;
 3. 
+4. ALTER TABLE osoby DROP COLUMN telefon;
